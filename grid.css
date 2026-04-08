@@ -1,0 +1,22 @@
+.contenedor{
+    display: grid;
+    place-items: center;
+    /*grid-template-columns: (3, 1fr);*/
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr) );
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+
+}
+img{
+    
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px 3px lightgrey;
+   transform: transforme '0.3s ease';
+   opacity: 1;
+}
+img:hover{
+     transform: scale(1.05);
+     opacity: 0.8;
+}
+    
