@@ -1,0 +1,30 @@
+table, td, th{
+    border: 1px solid rgb(9, 188, 237);
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-size: 44px;
+}
+
+span:nth-child(1) {
+    color: brown;
+
+}
+span:nth-child(2){
+    color: greenyellow;
+}
+span:nth-child(3){
+    color: rgb(185, 32, 185);
+}
+span:nth-child(4){
+    color: blue;
+}
+tr:nth-child(odd){/*odd=impares      even=pares*/
+    background-color: aquamarine;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
